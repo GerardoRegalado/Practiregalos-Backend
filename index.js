@@ -7,6 +7,7 @@ const app			= express()
 const connectDB		= require("./config/db")
 const cors			= require("cors")
 
+
 // 2. MIDDLEWARES
 require("dotenv").config()
 connectDB()
